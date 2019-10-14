@@ -19,7 +19,7 @@ We'll write an R chunk that loads the tidyverse package and then reads in the Ga
 
 CMD + OPT + i
 CNTRL + ALT + i to insert new r chunk
-```{r}
+```{r, message=FALSE}
 library(tidyverse)
 gm <- read_csv("Data/gapminder.csv")
 ```
